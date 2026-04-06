@@ -121,7 +121,7 @@
             bindings = <
             //L1		L2		L3		L4			L5		L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
             &trans		&trans	&trans	&trans		&trans	&trans			&trans					&trans		&kp N7		&kp N8		&kp N9		&kp STAR		&kp FSLH
-            &kp LSHIFT	&trans	&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans		&kp N4		&kp N5		&kp N6		&kp PLU			&kp MINUS
+            &kp LSHIFT	&trans	&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans		&kp N4		&kp N5		&kp N6		&kp PLUS		&kp MINUS
             &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans			&trans		&kp N1		&kp N2		&kp N3		&kp DOT			&kp ENTER
 										&trans		&trans	&trans									&trans		&kp N0		&trans
             >;
