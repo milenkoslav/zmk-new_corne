@@ -1,5 +1,16 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
+#define FLOW 		0
+#define CYRILLIC	1
+#define CYRILLIC_2	2
+#define GAME		3
+#define COMMAND   	4
+#define SYMBOL   	5
+#define NUMBER   	6
+#define FUNCTION   	7
+#define MOUSE   	8
+#define CHANGE   	9
+
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -86,11 +97,37 @@
         default_layer {
             display-name = "FLOW";
             bindings = <
-            //L1		L2		L3		L4			L5		L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
-            &kp ESC		&kp X	&kp P	&kp H		&kp M	&kp Z			&kp A					&kp J		&kp F		&kp O		&kp U		&kp DQT			&to 8
-            &mo 3		&kp S	&kp N	&kp R		&kp T	&kp K			&kp A  &kp A  &kp A		&kp Y		&kp C		&kp E		&kp I		&kp A			&mo 3
-            &kp LCTRL	&kp V	&kp B	&kp L		&kp D	&kp Q			&kp A  &kp A			&kp G		&kp W		&kp SQT		&kp COMMA	&kp DOT			&kp ENTER
-										&mo 4		&mo 2	&kp SPACE								&kp BSPC	&kp LSHIFT	&kp RALT
+            //L1		L2		L3		L4			L5			L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
+            &kp ESC		&kp X	&kp P	&kp H		&kp M		&kp Z			&kp A					&kp J		&kp F		&kp O		&kp U		&kp DQT			&to CHANGE
+            &mo SYMBOL	&kp S	&kp N	&kp R		&kp T		&kp K			&kp A  &kp A  &kp A		&kp Y		&kp C		&kp E		&kp I		&kp A			&mo SYMBOL
+            &kp LCTRL	&kp V	&kp B	&kp L		&kp D		&kp Q			&kp A  &kp A			&kp G		&kp W		&kp SQT		&kp COMMA	&kp DOT			&kp ENTER
+										&mo NUMBER	&mo COMMAND	&kp SPACE								&kp BSPC	&kp LSHIFT	&kp RALT
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+		cyrillic_layer {
+            display-name = "CYRILLIC";
+            bindings = <
+            //L1			L2			L3			L4			L5			L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
+       	 	&trans			&trans		&uc UC_SR_P	&uc UC_SR_H	&uc UC_SR_M	&uc UC_SR_Z		&trans					&uc UC_SR_J	&uc UC_SR_F	&uc UC_SR_O	&uc UC_SR_U	&trans			&to CHANGE
+            &mo	CYRILLIC_2	&uc UC_SR_S	&uc UC_SR_N	&uc UC_SR_R	&uc UC_SR_T	&uc UC_SR_K		&trans  &trans  &trans	&trans		&uc UC_SR_C	&uc UC_SR_E	&uc UC_SR_I	&uc UC_SR_A		&trans
+            &trans			&uc UC_SR_V	&uc UC_SR_B	&uc UC_SR_L	&uc UC_SR_D	&trans			&trans  &trans			&uc UC_SR_G	&trans		&trans		&trans		&trans			&trans
+													&trans		&trans		&trans									&trans		&trans		&trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+		cyrillic_layer_2 {
+            display-name = "CYRILLIC_2";
+            bindings = <
+            //L1		L2				L3				L4				L5				L6				UNAVAILABLE				R1				R2				R3			R4			R5		R6
+       	 	&trans		&trans			&trans			&trans			&trans			&uc UC_SR_ZH	&trans					&uc UC_SR_DJ	&trans			&trans		&trans		&trans	&to CHANGE
+            &trans		&uc UC_SR_SH	&uc UC_SR_NJ	&trans			&uc UC_SR_CU	&trans			&trans  &trans  &trans	&trans			&uc UC_SR_CH	&trans		&trans		&trans	&trans
+            &trans		&trans			&trans			&uc UC_SR_LJ	&uc UC_SR_DZ	&trans			&trans  &trans			&trans			&trans			&trans		&trans		&trans	&trans
+													&trans			&trans			&trans									&trans			&trans			&trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -99,11 +136,11 @@
 		game_layer {
             display-name = "GAME";
             bindings = <
-            //L1		L2		L3		L4			L5		L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
-            &kp U		&kp T	&kp Q	&kp W		&kp E	&kp R			&trans					&trans		&trans		&trans		&trans		&trans			&to 8
-            &kp LSHIFT	&kp TAB	&kp A	&kp S		&kp D	&kp F			&trans  &trans  &trans	&trans		&trans		&trans		&trans		&trans			&trans
-            &kp LCTRL	&kp X	&kp C	&kp V		&kp B	&kp N			&trans  &trans			&trans		&trans		&trans		&trans		&trans			&trans
-										&kp LALT	&mo 4	&kp SPACE								&trans		&trans		&trans
+            //L1		L2		L3		L4			L5			L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
+            &kp U		&kp T	&kp Q	&kp W		&kp E		&kp R			&trans					&trans		&trans		&trans		&trans		&trans			&to CHANGE
+            &kp LSHIFT	&kp TAB	&kp A	&kp S		&kp D		&kp F			&trans  &trans  &trans	&trans		&trans		&trans		&trans		&trans			&trans
+            &kp LCTRL	&kp X	&kp C	&kp V		&kp B		&kp N			&trans  &trans			&trans		&trans		&trans		&trans		&trans			&trans
+										&kp LALT	&mo COMMAND	&kp SPACE								&trans		&trans		&trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -112,11 +149,11 @@
 		command_layer {
             display-name = "COMMAND";
             bindings = <
-            //L1		L2		L3			L4			L5			L6				UNAVAILABLE				R1				R2				R3				R4				R5				R6
-            &trans		&trans	&kp HOME	&kp UP		&kp END		&trans			&trans					&trans			&trans			&kp PG_DN		&trans			&trans			&trans
-            &trans		&kp TAB	&kp LEFT	&kp DOWN	&kp RIGHT	&trans			&trans  &trans  &trans	&trans			&kp DEL			&kp PG_UP		&trans			&trans			&trans
-            &trans		&mo 6	&trans		&trans		&trans		&mo 5			&trans  &trans			&trans			&kp LGUI		&kp RGUI		&trans			&trans			&trans
-											&trans		&trans		&trans									&trans			&trans			&trans
+            //L1		L2			vL3			L4			L5			L6				UNAVAILABLE				R1				R2				R3				R4				R5				R6
+            &trans		&trans		&kp HOME	&kp UP		&kp END		&trans			&trans					&trans			&trans			&kp PG_DN		&trans			&trans			&trans
+            &trans		&kp TAB		&kp LEFT	&kp DOWN	&kp RIGHT	&trans			&trans  &trans  &trans	&trans			&kp DEL			&kp PG_UP		&trans			&trans			&trans
+            &trans		&mo MOUSE	&trans		&trans		&trans		&mo FUNCTION	&trans  &trans			&trans			&kp LGUI		&kp RGUI		&trans			&trans			&trans
+												&trans		&trans		&trans									&trans			&trans			&trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -174,27 +211,14 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-		trans {
-            display-name = "TRANS";
-            bindings = <
-            //L1		L2		L3		L4			L5		L6				UNAVAILABLE				R1			R2							R3			R4			R5				R6
-       	 	&trans		&trans	&trans	&trans		&trans	&trans			&trans					&trans		&uc UC_CYRILLIC_LETTER_EF	&trans		&trans		&trans			&to 8
-            &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans		&trans						&trans		&trans		&trans			&trans
-            &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans			&trans		&trans						&trans		&trans		&trans			&trans
-										&trans		&trans	&trans									&trans		&trans						&trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
 		change_layer {
             display-name = "CHANGE";
             bindings = <
-            //L1		L2		L3		L4			L5		L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
-            &to 0		&to 1	&trans	&trans		&trans	&trans			&trans					&trans		&trans		&trans		&trans		&trans			&trans
-            &to 7		&trans	&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans		&trans		&trans		&trans		&trans			&trans
-            &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans			&trans		&trans		&trans		&trans		&trans			&trans
-										&trans		&trans	&trans									&trans		&trans		&trans
+            //L1		L2			L3		L4			L5		L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
+            &to FLOW		&to GAME	&trans	&trans		&trans	&trans			&trans					&trans		&trans		&trans		&trans		&trans			&trans
+            &to CYRILLIC	&trans		&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans		&trans		&trans		&trans		&trans			&trans
+            &trans			&trans		&trans	&trans		&trans	&trans			&trans  &trans			&trans		&trans		&trans		&trans		&trans			&trans
+												&trans		&trans	&trans									&trans		&trans		&trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
