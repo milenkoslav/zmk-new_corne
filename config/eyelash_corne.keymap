@@ -112,7 +112,7 @@
             bindings = <
             //L1			L2			L3			L4			L5			L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
        	 	&trans			&trans		&uc UC_SR_P	&uc UC_SR_H	&uc UC_SR_M	&uc UC_SR_Z		&trans					&uc UC_SR_J	&uc UC_SR_F	&uc UC_SR_O	&uc UC_SR_U	&trans			&to CHANGE
-            &mo	CYRILLIC_2	&uc UC_SR_S	&uc UC_SR_N	&uc UC_SR_R	&uc UC_SR_T	&uc UC_SR_K		&trans  &trans  &trans	&trans		&uc UC_SR_C	&uc UC_SR_E	&uc UC_SR_I	&uc UC_SR_A		&trans
+            &trans			&uc UC_SR_S	&uc UC_SR_N	&uc UC_SR_R	&uc UC_SR_T	&uc UC_SR_K		&trans  &trans  &trans	&trans		&uc UC_SR_C	&uc UC_SR_E	&uc UC_SR_I	&uc UC_SR_A		&mo	CYRILLIC_2
             &trans			&uc UC_SR_V	&uc UC_SR_B	&uc UC_SR_L	&uc UC_SR_D	&trans			&trans  &trans			&uc UC_SR_G	&trans		&trans		&trans		&trans			&trans
 													&trans		&trans		&trans									&trans		&trans		&trans
             >;
