@@ -49,6 +49,104 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
+  CYRILLIC:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_P'
+  - '&uc UC_SR_H'
+  - '&uc UC_SR_M'
+  - '&uc UC_SR_Z'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_J'
+  - '&uc UC_SR_F'
+  - '&uc UC_SR_O'
+  - '&uc UC_SR_U'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CHANGE, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_S'
+  - '&uc UC_SR_N'
+  - '&uc UC_SR_R'
+  - '&uc UC_SR_T'
+  - '&uc UC_SR_K'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_C'
+  - '&uc UC_SR_E'
+  - '&uc UC_SR_I'
+  - '&uc UC_SR_A'
+  - CYRILLIC_2
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_V'
+  - '&uc UC_SR_B'
+  - '&uc UC_SR_L'
+  - '&uc UC_SR_D'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_G'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  CYRILLIC_2:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_ZH'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_DJ'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CHANGE, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_SH'
+  - '&uc UC_SR_NJ'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_CU'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_CH'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uc UC_SR_LJ'
+  - '&uc UC_SR_DZ'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   GAME:
   - U
   - T
@@ -93,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
+  - COMMAND
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -240,7 +338,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
@@ -357,7 +455,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CYRILLIC, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

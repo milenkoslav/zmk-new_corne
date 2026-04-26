@@ -1,4 +1,4 @@
-<svg width="1060" height="2604" viewBox="0 0 1060 2604" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1060" height="3241" viewBox="0 0 1060 3241" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
@@ -539,7 +539,571 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 318)" class="layer-GAME">
+<g transform="translate(40, 318)" class="layer-CYRILLIC">
+<text x="0" y="28" class="label" id="CYRILLIC">CYRILLIC:</text>
+<g transform="translate(0, 56)">
+<g transform="translate(28, 49)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(84, 49)" class="key trans keypos-1">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(140, 35)" class="key keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_P</tspan>
+</text>
+</g>
+<g transform="translate(196, 28)" class="key keypos-3">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_H</tspan>
+</text>
+</g>
+<g transform="translate(252, 35)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_M</tspan>
+</text>
+</g>
+<g transform="translate(308, 41)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_Z</tspan>
+</text>
+</g>
+<g transform="translate(546, 41)" class="key trans keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(672, 41)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_J</tspan>
+</text>
+</g>
+<g transform="translate(728, 35)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_F</tspan>
+</text>
+</g>
+<g transform="translate(784, 28)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_O</tspan>
+</text>
+</g>
+<g transform="translate(840, 35)" class="key keypos-10">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_U</tspan>
+</text>
+</g>
+<g transform="translate(896, 49)" class="key trans keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(952, 49)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<a href="#CHANGE">
+<text x="0" y="-4" class="key tap layer-activator">CHANGE</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g transform="translate(28, 105)" class="key trans keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(84, 105)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_S</tspan>
+</text>
+</g>
+<g transform="translate(140, 91)" class="key keypos-15">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_N</tspan>
+</text>
+</g>
+<g transform="translate(196, 84)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_R</tspan>
+</text>
+</g>
+<g transform="translate(252, 91)" class="key keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_T</tspan>
+</text>
+</g>
+<g transform="translate(308, 97)" class="key keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_K</tspan>
+</text>
+</g>
+<g transform="translate(490, 97)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(546, 97)" class="key trans keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(602, 97)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(672, 97)" class="key trans keypos-22">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(728, 91)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_C</tspan>
+</text>
+</g>
+<g transform="translate(784, 84)" class="key keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_E</tspan>
+</text>
+</g>
+<g transform="translate(840, 91)" class="key keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_I</tspan>
+</text>
+</g>
+<g transform="translate(896, 105)" class="key keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_A</tspan>
+</text>
+</g>
+<g transform="translate(952, 105)" class="key keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<a href="#CYRILLIC_2">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">CYRILLIC_2</tspan></text>
+</a></g>
+<g transform="translate(28, 161)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(84, 161)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_V</tspan>
+</text>
+</g>
+<g transform="translate(140, 147)" class="key keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_B</tspan>
+</text>
+</g>
+<g transform="translate(196, 140)" class="key keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_L</tspan>
+</text>
+</g>
+<g transform="translate(252, 147)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_D</tspan>
+</text>
+</g>
+<g transform="translate(308, 153)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(378, 153)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(546, 153)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(672, 153)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 86%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">UC_SR_G</tspan>
+</text>
+</g>
+<g transform="translate(728, 147)" class="key trans keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(784, 140)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(840, 147)" class="key trans keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(896, 161)" class="key trans keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(952, 161)" class="key trans keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(224, 203)" class="key trans keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(285, 209) rotate(12.0)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(348, 226) rotate(24.0)" class="key trans keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(632, 224) rotate(-24.0)" class="key trans keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(695, 209) rotate(-12.0)" class="key trans keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(756, 203)" class="key trans keypos-47">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<path d="M103,100 l-13,43" class="combo"/>
+<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
+<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+</g>
+</g>
+</g>
+<g transform="translate(40, 637)" class="layer-CYRILLIC_2">
+<text x="0" y="28" class="label" id="CYRILLIC_2">CYRILLIC_2:</text>
+<g transform="translate(0, 56)">
+<g transform="translate(28, 49)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(84, 49)" class="key trans keypos-1">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(140, 35)" class="key trans keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(196, 28)" class="key trans keypos-3">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(252, 35)" class="key trans keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(308, 41)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_ZH</tspan>
+</text>
+</g>
+<g transform="translate(546, 41)" class="key trans keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(672, 41)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_DJ</tspan>
+</text>
+</g>
+<g transform="translate(728, 35)" class="key trans keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(784, 28)" class="key trans keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(840, 35)" class="key trans keypos-10">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(896, 49)" class="key trans keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(952, 49)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<a href="#CHANGE">
+<text x="0" y="-4" class="key tap layer-activator">CHANGE</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g transform="translate(28, 105)" class="key trans keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(84, 105)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_SH</tspan>
+</text>
+</g>
+<g transform="translate(140, 91)" class="key keypos-15">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_NJ</tspan>
+</text>
+</g>
+<g transform="translate(196, 84)" class="key trans keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(252, 91)" class="key keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_CU</tspan>
+</text>
+</g>
+<g transform="translate(308, 97)" class="key trans keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(490, 97)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(546, 97)" class="key trans keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(602, 97)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(672, 97)" class="key trans keypos-22">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(728, 91)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_CH</tspan>
+</text>
+</g>
+<g transform="translate(784, 84)" class="key trans keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(840, 91)" class="key trans keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(896, 105)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(952, 105)" class="key held keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+</g>
+<g transform="translate(28, 161)" class="key trans keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(84, 161)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(140, 147)" class="key trans keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(196, 140)" class="key keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_LJ</tspan>
+</text>
+</g>
+<g transform="translate(252, 147)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;uc</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">UC_SR_DZ</tspan>
+</text>
+</g>
+<g transform="translate(308, 153)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(378, 153)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(546, 153)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(672, 153)" class="key trans keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(728, 147)" class="key trans keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(784, 140)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(840, 147)" class="key trans keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(896, 161)" class="key trans keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(952, 161)" class="key trans keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(224, 203)" class="key trans keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(285, 209) rotate(12.0)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(348, 226) rotate(24.0)" class="key trans keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(632, 224) rotate(-24.0)" class="key trans keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(695, 209) rotate(-12.0)" class="key trans keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(756, 203)" class="key trans keypos-47">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<path d="M103,100 l-13,43" class="combo"/>
+<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
+<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+</g>
+</g>
+</g>
+<g transform="translate(40, 955)" class="layer-GAME">
 <text x="0" y="28" class="label" id="GAME">GAME:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
@@ -762,8 +1326,8 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#NUMBER">
-<text x="0" y="-4" class="key tap layer-activator">NUMBER</text>
+<a href="#COMMAND">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">COMMAND</tspan></text>
 </a></g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -792,7 +1356,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 637)" class="layer-COMMAND">
+<g transform="translate(40, 1274)" class="layer-COMMAND">
 <text x="0" y="28" class="label" id="COMMAND">COMMAND:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
@@ -1047,7 +1611,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 955)" class="layer-SYMBOL">
+<g transform="translate(40, 1592)" class="layer-SYMBOL">
 <text x="0" y="28" class="label" id="SYMBOL">SYMBOL:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
@@ -1300,7 +1864,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1274)" class="layer-NUMBER">
+<g transform="translate(40, 1911)" class="layer-NUMBER">
 <text x="0" y="28" class="label" id="NUMBER">NUMBER:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
@@ -1541,9 +2105,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
-<g transform="translate(285, 209) rotate(12.0)" class="key held alternate keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<g transform="translate(285, 209) rotate(12.0)" class="key trans keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key trans keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1573,7 +2138,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1592)" class="layer-FUNCTION">
+<g transform="translate(40, 2229)" class="layer-FUNCTION">
 <text x="0" y="28" class="label" id="FUNCTION">FUNCTION:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
@@ -1826,7 +2391,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1911)" class="layer-MOUSE">
+<g transform="translate(40, 2548)" class="layer-MOUSE">
 <text x="0" y="28" class="label" id="MOUSE">MOUSE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
@@ -2088,7 +2653,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2229)" class="layer-CHANGE">
+<g transform="translate(40, 2866)" class="layer-CHANGE">
 <text x="0" y="28" class="label" id="CHANGE">CHANGE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
@@ -2160,10 +2725,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(28, 105)" class="key trans keypos-13">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(28, 105)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<a href="#CYRILLIC">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">CYRILLIC</tspan></text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 105)" class="key trans keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
