@@ -127,7 +127,7 @@
        	 	&trans		&trans			&trans			&trans			&trans			&uc UC_SR_ZH	&trans					&uc UC_SR_DJ	&trans			&trans		&trans		&trans	&to CHANGE
             &trans		&uc UC_SR_SH	&uc UC_SR_NJ	&trans			&uc UC_SR_CU	&trans			&trans  &trans  &trans	&trans			&uc UC_SR_CH	&trans		&trans		&trans	&trans
             &trans		&trans			&trans			&uc UC_SR_LJ	&uc UC_SR_DZ	&trans			&trans  &trans			&trans			&trans			&trans		&trans		&trans	&trans
-													&trans			&trans			&trans									&trans			&trans			&trans
+														&trans			&trans			&trans									&trans			&trans			&trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -190,7 +190,7 @@
             bindings = <
             //L1		L2		L3		L4			L5		L6				UNAVAILABLE				R1				R2				R3				R4				R5				R6
             &kp F1		&kp F2	&kp F3	&kp F4		&kp F5	&kp F6			&trans					&kp F7			&kp F8			&kp F9			&kp F10			&kp F11			&kp F12
-            &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans			&trans			&trans			&trans			&trans			&trans
+            &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans  &trans	&trans			&trans			&trans			&trans			&trans			&bt BT_CLR_ALL
             &trans		&trans	&trans	&trans		&trans	&trans			&trans  &trans			&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&bt BT_CLR
 										&trans		&trans	&trans									&trans			&trans			&trans
             >;
