@@ -136,11 +136,11 @@
 		game_layer {
             display-name = "GAME";
             bindings = <
-            //L1		L2		L3		L4			L5			L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
-            &kp U		&kp T	&kp Q	&kp W		&kp E		&kp R			&trans					&trans		&trans		&trans		&trans		&trans			&to CHANGE
-            &kp LSHIFT	&kp TAB	&kp A	&kp S		&kp D		&kp F			&trans  &trans  &trans	&trans		&trans		&trans		&trans		&trans			&trans
-            &kp LCTRL	&kp X	&kp C	&kp V		&kp B		&kp N			&trans  &trans			&trans		&trans		&trans		&trans		&trans			&trans
-										&kp LALT	&mo COMMAND	&kp SPACE								&trans		&trans		&trans
+            //L1		L2			L3		L4			L5			L6				UNAVAILABLE				R1			R2			R3			R4			R5				R6
+            &kp ESC		&kp T		&kp Q	&kp W		&kp E		&kp R			&trans					&trans		&trans		&trans		&trans		&trans			&to CHANGE
+            &kp TAB		&kp LSHIFT	&kp A	&kp S		&kp D		&kp F			&trans  &trans  &trans	&trans		&trans		&trans		&trans		&trans			&trans
+            &kp LCTRL	&kp X		&kp C	&kp V		&kp B		&kp N			&trans  &trans			&trans		&trans		&trans		&trans		&trans			&trans
+											&kp LALT	&mo COMMAND	&kp SPACE								&trans		&trans		&trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
